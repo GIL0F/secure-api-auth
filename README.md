@@ -99,7 +99,7 @@ Acesse:
 
 # Roadmap do Projeto
 
-## Fase 1 — Base (Atual)
+## Fase 1 — Base (Concluída)
 
 ✔ Estrutura do projeto
 ✔ FastAPI
@@ -109,7 +109,7 @@ Acesse:
 ✔ Swagger
 ✔ Organização modular
 
-## Fase 2 — Segurança Avançada
+## Fase 2 — Segurança Avançada (Atual)
 
 Rotas protegidas com dependências
 Middleware de autenticação
