@@ -109,7 +109,7 @@ Acesse:
 ✔ Swagger
 ✔ Organização modular
 
-## Fase 2 — Segurança Avançada (completa)
+## Fase 2 — Segurança Avançada (concluida)
 
 Rotas protegidas com dependências
 Middleware de autenticação
@@ -123,8 +123,6 @@ Blacklist de tokens
 Cadastro de usuário
 Hash de senha (bcrypt)
 Validação de senha forte
-Roles (admin, user, guest)
-RBAC (Role-Based Access Control)
 
 ## Fase 4 — Banco de Dados
 
@@ -133,6 +131,8 @@ SQLAlchemy
 Migrations (Alembic)
 Modelagem de usuários
 Modelagem de permissões
+Roles (admin, user, guest)
+RBAC (Role-Based Access Control)
 
 ## Fase 5 — Observabilidade
 
@@ -175,13 +175,6 @@ Criar uma **API segura de produção**, com:
 * Infraestrutura como código
 * Observabilidade
 * Padrões profissionais
-
-## Status do Projeto
-
-Em desenvolvimento contínuo
-
-Este projeto evolui por versões, não por tutoriais.
-Cada fase representa maturidade técnica real.
 
 ## Autor
 
