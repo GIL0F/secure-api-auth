@@ -1,13 +1,13 @@
 from fastapi import FastAPI
+from app.db.database import engine
+from app.users import models, routes 
 
-from app.auth.routes import router as auth_router
-from app.users.routes import router as users_router
+models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Secure API Auth", version="1.0.0")
+app = FastAPI()
 
-app.include_router(auth_router)
-app.include_router(users_router)
+app.include_router(routes.router)  
 
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
+@app.get("/")
+def read_root():
+    return {"message": "Servidor rodando!"}
