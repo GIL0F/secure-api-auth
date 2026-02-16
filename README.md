@@ -109,7 +109,7 @@ Acesse:
 ✔ Swagger
 ✔ Organização modular
 
-## Fase 2 — Segurança Avançada (concluida)
+## Fase 2 — Segurança Avançada (Concluída)
 
 Rotas protegidas com dependências
 Middleware de autenticação
@@ -118,13 +118,13 @@ Refresh token
 Expiração e rotação de tokens
 Blacklist de tokens
 
-## Fase 3 — Usuários (atual)
+## Fase 3 — Usuários (Concluída)
 
 Cadastro de usuário
 Hash de senha (bcrypt)
 Validação de senha forte
 
-## Fase 4 — Banco de Dados
+## Fase 4 — Banco de Dados (Atual)
 
 PostgreSQL
 SQLAlchemy
