@@ -109,7 +109,7 @@ Acesse:
 ✔ Swagger
 ✔ Organização modular
 
-## Fase 2 — Segurança Avançada (Atual)
+## Fase 2 — Segurança Avançada (completa)
 
 Rotas protegidas com dependências
 Middleware de autenticação
@@ -118,7 +118,7 @@ Refresh token
 Expiração e rotação de tokens
 Blacklist de tokens
 
-## Fase 3 — Usuários
+## Fase 3 — Usuários (atual)
 
 Cadastro de usuário
 Hash de senha (bcrypt)
